@@ -5,3 +5,9 @@
 <h3>@ViewData["Message"]</h3>
 
 <p>Use this area to provide additional information.</p>
+<script>
+    mixpanel.track(
+        "About Page",
+        { "genre": "hip-hop" }
+    );
+</script>
