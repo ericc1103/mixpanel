@@ -13,8 +13,8 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
-bin
-[Bb]in
+bin/
+[Bb]in/
 [Dd]ebug*/
 *.sbr
 obj/
