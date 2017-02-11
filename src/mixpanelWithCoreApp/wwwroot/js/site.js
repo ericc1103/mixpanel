@@ -1,5 +1,6 @@
-﻿function sendTrack() {    
-    mixpanel.track($("#myName").val(), $("#myObject").val());
+﻿function sendTrack() {
+    var objectName = $("#objectName").val();
+    mixpanel.track(objectName, { objectName: { "genre": "hip-hop" } });
 
     mixpanel.track(
         "site.js",
